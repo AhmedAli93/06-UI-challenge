@@ -1,0 +1,131 @@
+*{
+    border: 1px dashed orange;
+}
+
+header p {
+    height: 75px;
+    width: 480px;
+    background-color: red;
+}
+
+#b {
+    height: 150px;
+    width: 480px;
+    background-color: blue;
+}
+
+#c {
+    height: 75px;
+    width: 480px;
+    background-color: green;
+}
+
+#d {
+    height: 125px;
+    width: 480px;
+    background-color: yellow;
+}
+
+#e {
+    display: inline-block;
+    height: 250px;
+    width: 240px;
+    background-color: orange;
+    
+}
+
+#f {
+    height: 250px;
+    width: 240px;
+    background-color: pink;
+    float: right;
+    
+}
+
+#g {
+    height: 250px;
+    width: 240px;
+    background-color: grey;
+    float: right;
+    clear: both;
+     
+}
+#h {
+    height: 250px;
+    width: 240px;
+    background-color: purple;
+    
+}
+#i {
+    height: 250px;
+    width: 240px;
+    background-color: yellow;
+}
+
+footer p{
+    height: 80px;
+    width: 480px;
+    background-color: blue;
+}
+
+@media only screen and (min-width: 768px) {
+    header p {
+        height: 100px;
+        width: 960px;
+        background-color: red;
+    }
+    
+    #b {
+        height: 600px;
+        width: 200px;
+        background-color: blue;
+    }
+    
+    #c {
+        height: 200px;
+        width: 380px;
+        background-color: green;
+    }
+    
+    #d {
+        height: 200px;
+        width: 380px;
+        background-color: yellow;
+    }
+    
+    #e {
+        
+        height: 250px;
+        width: 190px;
+        background-color: orange;
+        
+    }
+    
+    #f {
+        height: 250px;
+        width: 190px;
+        background-color: pink;
+        
+        
+    }
+    
+    #g{
+        height: 250px;
+        width: 190px;
+        background-color: grey;
+        
+         
+    }
+    #h {
+        height: 250px;
+        width: 190px;
+        background-color: purple;
+        
+    }
+    #i {
+        height: 150px;
+        width: 760px;
+        background-color: yellow;
+    }
+}
+
